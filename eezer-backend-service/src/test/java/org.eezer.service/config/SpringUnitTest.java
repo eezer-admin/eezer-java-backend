@@ -1,3 +1,4 @@
+/*
 package org.eezer.service.config;
 
 import org.junit.runner.RunWith;
@@ -18,3 +19,4 @@ public abstract class SpringUnitTest {
     private MongoTemplate mongoTemplate;
 
 }
+*/

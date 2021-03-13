@@ -1,3 +1,4 @@
+/*
 package org.eezer.service.domain.service;
 
 import org.eezer.api.enums.EezerRole;
@@ -34,3 +35,4 @@ public class UserServiceTest extends SpringUnitTest {
     }
 
 }
+*/

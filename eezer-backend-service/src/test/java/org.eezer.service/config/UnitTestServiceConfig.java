@@ -1,3 +1,4 @@
+/*
 package org.eezer.service.config;
 
 import com.github.fakemongo.Fongo;
@@ -14,9 +15,11 @@ import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
 @ComponentScan({ ServiceConfig.SERVICE_BASE_PACKAGE })
 public class UnitTestServiceConfig extends AbstractMongoConfiguration {
 
-    /**
+    */
+/**
      * Service properties filename.
-     */
+     *//*
+
     public static final String UNIT_TEST_SERVICE_PROPERTIES_FILE = "eezer-backend-service.properties";
 
     @Autowired
@@ -33,3 +36,4 @@ public class UnitTestServiceConfig extends AbstractMongoConfiguration {
     }
 
 }
+*/

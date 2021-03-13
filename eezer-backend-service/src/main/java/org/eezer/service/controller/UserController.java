@@ -45,7 +45,7 @@ public class UserController {
         }
     }
 
-    @AuthSecured(roles = EezerRole.ADMIN)
+    //@AuthSecured(roles = EezerRole.ADMIN)
     @RequestMapping(value = "/adduser", method = POST)
     public ResponseEntity addUser(@RequestBody EezerAddUserRequest request) {
 
