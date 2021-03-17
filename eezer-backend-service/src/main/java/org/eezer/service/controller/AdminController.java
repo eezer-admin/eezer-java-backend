@@ -6,6 +6,7 @@ import org.eezer.api.request.EezerCreateTokenRequest;
 import org.eezer.api.response.EezerVersionResponse;
 import org.eezer.service.application.service.ApplicationService;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,6 +17,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 
 @Slf4j
+@CrossOrigin
 @RestController
 public class AdminController {
 

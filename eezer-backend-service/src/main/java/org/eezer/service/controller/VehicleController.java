@@ -8,10 +8,7 @@ import org.eezer.api.request.EezerEditVehicleRequest;
 import org.eezer.service.application.service.ApplicationService;
 import org.eezer.service.security.annotation.AuthSecured;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -20,6 +17,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 
 @Slf4j
+@CrossOrigin
 @RestController
 public class VehicleController {
 
